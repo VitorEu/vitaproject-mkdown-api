@@ -26,6 +26,9 @@ const saveContent = async (request: any, response: any) => {
 const getContent = async (request: any, response: any) => {
     try {
         const uuid = request.params.uuid;
+        console.log(
+            `[GET] UUID = uuid`
+        )
 
         if (!uuid) return Exception.RequiredFields("uuid", response);
 
