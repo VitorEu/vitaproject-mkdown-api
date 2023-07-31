@@ -10,4 +10,8 @@ const Exception: IException = {
     RequiredFields
 }
 
+export {
+    RequiredFields
+}
+
 export default Exception;

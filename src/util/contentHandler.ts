@@ -45,4 +45,4 @@ const contentHandler: ContentHandler = {
     getContent
 }
 
-export default contentHandler;
+export { contentHandler } ;

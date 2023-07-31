@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "server": "ts-node-esm --experimental-specifier-resolution=node src/server.ts"
+    "server": "nodemon --experimental-specifier-resolution=node src/server.ts"
   },
   "dependencies": {
     "@prisma/client": "4.16.2",
